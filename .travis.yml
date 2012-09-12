@@ -1,5 +1,9 @@
 script: "bundle exec rake test"
 rvm:
+  - rbx-18mode
+  - rbx-19mode
+  - jruby-19mode
+  - jruby-18mode
   - 1.8.7
   - 1.9.2
   - 1.9.3
@@ -9,7 +13,4 @@ gemfile:
   - Gemfile
 notifications:
   recipients:
-    - jose.valim@plataformatec.com.br
-    - carlos@plataformatec.com.br
-    - rodrigo.flores@plataformatec.com.br
-    - rafael.franca@plataformatec.com.br
+    - parndt@gmail.com
